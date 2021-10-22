@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, FlatList, SafeAreaView, Dimensions } from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  FlatList,
+  SafeAreaView,
+  Dimensions,
+} from 'react-native';
 
 import { fontSizes, spacing } from '../../utils/sizes';
 import { RoundedButton } from '../../components/RoundedButton';
@@ -16,12 +23,14 @@ export const FocusHistory = ({ focusHistory, onClear }) => {
   };
   return (
     <>
-      <SafeAreaView style={{ height: WindowHeight * 0.60, alignItems: 'center'}}>
+      <SafeAreaView
+        style={{ height: WindowHeight * 0.6, alignItems: 'center' }}
+      >
         {!!focusHistory.length && (
           <>
             <Text style={styles.title}>Things we Focused on</Text>
             <FlatList
-              style={{ }}
+              style={{}}
               contentContainerStyle={{ flex: 1, alignItems: 'center' }}
               data={focusHistory}
               renderItem={HistoryItem}
@@ -30,7 +39,7 @@ export const FocusHistory = ({ focusHistory, onClear }) => {
             <View style={styles.clearContainer}>
               <RoundedButton
                 size={115}
-                title="clear"
+                title='clear'
                 onPress={() => clearHistory()}
               />
             </View>
@@ -44,7 +53,7 @@ export const FocusHistory = ({ focusHistory, onClear }) => {
 const styles = StyleSheet.create({
   historyItem: (status) => ({
     color: status > 1 ? 'red' : 'green',
-    fontSizes: fontSizes.md,
+    fontSize: fontSizes.md,
     paddingTop: spacing.md,
   }),
   title: {
