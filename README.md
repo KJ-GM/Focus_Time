@@ -1,11 +1,18 @@
-# Sample Snack app
+# Focus Time app
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+-> Made to improve my focus time on Study + Work + Success
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+-> Available for cross-platofrom( IOS + ANDROID)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+-> Made using ReactNative framework
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+-> App UI View:
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Main Page: 
+
+![a9afb6ba-bf14-459e-9e0d-5546ac1f3746](https://user-images.githubusercontent.com/52489083/138460339-f0b03e71-10c9-4d93-a090-9ec4ae293fb9.jpg)
+
+Timer Page: 
+
+![c6c2275c-c646-41c8-818d-ef3bfb823213](https://user-images.githubusercontent.com/52489083/138460345-c62d0023-bd6e-4670-941c-3253632290c5.jpg)
+
