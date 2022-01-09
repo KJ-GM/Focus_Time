@@ -1,16 +1,12 @@
 # Focus Time app
 
--> Made to improve my focus time on Study + Work + Success
+- Made to improve my focus time on Study + Work + Success
 
--> Available for cross-platofrom( IOS + ANDROID)
+- Available for cross-platofrom( IOS + ANDROID)
 
--> Made using ReactNative framework
+- Made using ReactNative framework
 
--> App UI View:
-
-Main Page: 
-
-![a9afb6ba-bf14-459e-9e0d-5546ac1f3746](https://user-images.githubusercontent.com/52489083/138460339-f0b03e71-10c9-4d93-a090-9ec4ae293fb9.jpg)
+> App UI View:
 
 Timer Page: 
 
